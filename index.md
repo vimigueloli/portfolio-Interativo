@@ -1,5 +1,5 @@
 <html>
-    <link href="https://vimigueloli.github.io/portfolio-Interativo/certificard.css" rel="stylesheet"/>
+    <link href="https://vimigueloli.github.io/portfolio-Interativo/style.css" rel="stylesheet"/>
     <body>
         <section class="cartela">
             <header>
