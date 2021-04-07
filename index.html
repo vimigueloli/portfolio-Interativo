@@ -1,16 +1,22 @@
+  
 <html>
     <head>
         <title>Victor Miguel</title>
     </head>
     <style>
+        *{
+            margin: 0;
+            padding: 0;
+            border: 0;
+        }
         .cartao{
-            background-color: #33338888;
+            background-color: #333388;
             margin: 100px;
             margin-left: 200px;
             margin-right: 200px;
             border-radius: 35px;
             width: 500px;
-            height: 320px;
+            height: 300px;
             margin-left: auto;
             margin-right: auto;
             display: block;
@@ -21,11 +27,10 @@
             color:aliceblue;
         }
         .nome_cartao{
-            margin-left: auto;
-            margin-right: auto;
             font-weight: lighter;
+            margin-top: 30px;
             padding-left: 120; 
-            display: inline-block          
+            display: inline-block;    
         }
         .projetos{
             padding: 15px;
@@ -41,13 +46,63 @@
             border-radius: 15px;
         }
         .nome{
-            padding-left: auto;
+            text-align: center;
             display: block
         }
         .foto{
             max-width: 150px;
             max-height: 150px;
             border-radius: 100%;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+        }
+        .botao{
+            background-color: #15163f;
+            border-radius: 10px;
+            border: 0;
+            padding: 5px;
+            color: #ffffff;
+            text-align: center;
+            padding: 3px;
+            margin: 5px;
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: lighter;
+        }
+        .ajuste-tabela{
+            width: 150px;
+            display: block;
+            color:#15163f;
+            display: inline;
+        }
+        table{
+            margin-top: 20px;
+            display: inline-block;
+        }
+        .tr1{
+            text-align: left;
+        }
+        .tr2{
+            text-align: right;
+        }
+        .chip{
+            float: right;
+            margin-right: 30px;
+            background-color: #e7c630;
+            border-radius: 25%;
+            width: 65px;
+            height: 60px;
+            margin-top: 55px;
+            
+        }
+        .base-projetos{
+            width: 90px;
+            height: 30px;
+            opacity: 85%;
+            float: right;
+        }
+        p{
+            color:#333388
         }
     </style>
     <body>
@@ -59,14 +114,28 @@
             <div id="cartao_Alura" class= "cartao">
                 <h2 id= "nome_do_cartao" class= "nome_cartao">imersãoDev_ Alura</h2>
                 <div class= "projetos">
-                    <ol>
-                        <li>🔢 Calculadora</li>
-                        <li>🔮 Mentalista</li>
-                        <li>🎬 Aluraflix</li>
-                        <li>🏆 Tabela de Classificação</li>
-                        <li>🃏 Supertrunfo</li>
-                        <li>🌐 Certificard</li>
-                    </ol>
+                    <table>
+                        <tr>
+                            <td class="tr1"><button id="projeto4" class="botao" type= "button">🔢 <br>Calculadora</button></td>
+                            <td><div classe="ajuste-tabela"><p>.</p></div></td>
+                            <td class="tr2"><button id="projeto4" class="botao" type= "button">🔮 <br>Mentalista</button></td>
+                        </tr>
+                        <tr>
+                            <td class="tr1"><button id="projeto4" class="botao" type= "button">🎬 <br>Aluraflix</button></td>
+                            <td><div classe="ajuste-tabela"><p>.</p></div></td>
+                            <td class="tr2"><button id="projeto4" class="botao" type= "button">🏆 <br>Tabela de Classificação</button></td>
+                        </tr>
+                        <tr>
+                            <td class="tr1"><button id="projeto4" class="botao" type= "button">🃏 <br>Supertrunfo</button></td>
+                            <td><div classe="ajuste-tabela"><p>.</p></div></td>
+                            <td class="tr2"><button id="projeto4" class="botao" type= "button">🌐 <br>Certificard</button></td>
+                        </tr>
+                    
+                    </table>
+                    <div class="chip">
+                        <p></p>
+                    </div>
+                    <img class="base-projetos" src="https://www.alura.com.br/assets/img/home/alura-logo.svg">
                 </div>
             </div>
         </section>
